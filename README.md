@@ -15,7 +15,9 @@ falta si quieres que el modelo lea los mensajes en vivo; todo lo demás —inclu
 tubería completa y las comprobaciones— corre con la biblioteca estándar.
 
 ```bash
-cd "Prueba AI-Mate"
+git clone https://github.com/VTrisac/preparador-variables-nomina.git
+cd preparador-variables-nomina
+
 cp -R caso-despacho caso-despacho.limpio        # una importación NO se deshace
 cd agente
 ```
@@ -57,12 +59,23 @@ dos lectores se pueden comparar sobre los mismos doce mensajes.
 
 **Aprobar e importar de verdad** (esto sí es irreversible):
 
+`propuestas/` no viaja en el repositorio: es salida regenerable, y además guarda estado de
+importaciones ya hechas que caduca en cuanto se restaura el entorno. Los ficheros que se
+citan más abajo —`revision.md`, `incidencias.md`, `lote.json`— los crea el agente en la
+primera ejecución.
+
 ```bash
 cat propuestas/2026-08/0087/revision.md
 python3 aprobar.py 0087 --periodo 2026-08
 ```
 
 Para volver al principio: `rm -rf caso-despacho && cp -R caso-despacho.limpio caso-despacho`.
+
+**Sobre `caso-despacho/`:** es el entorno de pruebas que proporciona AI Mate con el
+encargo, no obra mía. Va incluido en el repositorio solo para que la entrega se pueda
+clonar y ejecutar de un tirón, que es lo que pide el enunciado. No se ha modificado ni un
+byte de sus ficheros. Si preferís que no viaje aquí, se retira y el README explica dónde
+colocarlo.
 
 ---
 

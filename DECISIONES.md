@@ -261,11 +261,18 @@ propósito.
 
 ---
 
-## D9 · Python de biblioteca estándar y dos clientes de API
+## D9 · Python de biblioteca estándar, y las dependencias son opcionales
 
-**La decisión.** `email`, `zipfile`, `csv`, `sqlite3`, `urllib`, `html.parser`. Dos
-dependencias, `openai` y `anthropic`, que son los dos clientes de API detrás de una
-única función: ver § D13 para por qué son dos y no una.
+**La decisión.** `email`, `zipfile`, `csv`, `sqlite3`, `urllib`, `html.parser`. Las dos
+únicas dependencias, `openai` y `anthropic`, son los clientes de API detrás de una sola
+función —§ D13 explica por qué son dos y no una— y **se importan de forma perezosa,
+dentro de esa función**.
+
+Eso tiene una consecuencia que vale más que la elección: **la entrega entera se verifica
+sin instalar nada**. `evaluar.py` y la tubería completa con la extracción de referencia
+corren con el Python 3.9 que trae macOS de serie. `pip` solo hace falta si quieres que el
+modelo lea los mensajes en vivo. Quien evalúa esto no debería tener que montar un entorno
+para comprobar que funciona.
 
 **Por qué.** El propio entorno demuestra que la stdlib basta para hablar con estos dos
 sistemas. Y hay una razón que no es estética: **lo va a mantener una persona que además
