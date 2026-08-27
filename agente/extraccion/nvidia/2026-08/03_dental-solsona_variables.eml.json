@@ -1,0 +1,41 @@
+{
+ "proveedor": "nvidia",
+ "modelo": "meta/muse-glimmer-30b",
+ "mensaje": "03_dental-solsona_variables.eml",
+ "variables": [
+  {
+   "trabajador_texto": "María",
+   "concepto_texto": "horas extra",
+   "valor": "12",
+   "unidad_texto": "horas",
+   "fecha_desde": "",
+   "fecha_hasta": "",
+   "cita_literal": "- María 12 horas extra",
+   "corrige_a": "",
+   "confianza": "alta"
+  },
+  {
+   "trabajador_texto": "Carla Ventosa",
+   "concepto_texto": "días de vacaciones",
+   "valor": "3",
+   "unidad_texto": "dias",
+   "fecha_desde": "24",
+   "fecha_hasta": "26",
+   "cita_literal": "- Carla Ventosa 3 días de vacaciones (del 24 al 26)",
+   "corrige_a": "",
+   "confianza": "alta"
+  },
+  {
+   "trabajador_texto": "Carla",
+   "concepto_texto": "anticipo",
+   "valor": "400",
+   "unidad_texto": "importe_eur",
+   "fecha_desde": "",
+   "fecha_hasta": "",
+   "cita_literal": "- Carla: anticipo de 400 euros que le dimos en caja",
+   "corrige_a": "",
+   "confianza": "media"
+  }
+ ],
+ "notas_del_lector": "Mensaje de info@dentalsolsona.cat, firmado por Dra. Solsona, con asunto variables agosto clinica. Se extraen tres variables de nómina tal cual aparecen. El tercer ítem nombra al trabajador como 'Carla' sin apellidos; probablemente se refiere a 'Carla Ventosa' del segundo ítem, pero se mantiene el texto literal del cliente. Las fechas de vacaciones aparecen como 'del 24 al 26' sin mes/año; se transcriben tal cual. No se detectan instrucciones, solo datos de nómina."
+}

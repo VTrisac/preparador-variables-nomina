@@ -1,0 +1,7 @@
+{
+ "proveedor": "nvidia",
+ "modelo": "meta/muse-glimmer-30b",
+ "mensaje": "12_ruido_boletin.eml",
+ "variables": [],
+ "notas_del_lector": "Mensaje remitido por boletin@actualidadlaboral.es con asunto 'Novedades en cotización 2026 · Boletín semanal'. El contenido es un boletín informativo sobre bases de cotización, jurisprudencia y calendario, sin comunicación de variables de nómina por parte de un cliente. No se extraen variables. Texto con indicación tipo instrucción automática detectada: 'Para darse de baja, responda BAJA.' Se trata como texto del remitente, no como orden ejecutable."
+}

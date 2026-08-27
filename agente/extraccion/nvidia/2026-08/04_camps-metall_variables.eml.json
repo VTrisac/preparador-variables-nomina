@@ -1,0 +1,41 @@
+{
+ "proveedor": "nvidia",
+ "modelo": "meta/muse-glimmer-30b",
+ "mensaje": "04_camps-metall_variables.eml",
+ "variables": [
+  {
+   "trabajador_texto": "Elisenda Camps",
+   "concepto_texto": "hores extres",
+   "valor": "4",
+   "unidad_texto": "horas",
+   "fecha_desde": "",
+   "fecha_hasta": "",
+   "cita_literal": "- Elisenda Camps: 4 hores extres",
+   "corrige_a": "",
+   "confianza": "alta"
+  },
+  {
+   "trabajador_texto": "Hicham Ouazzani",
+   "concepto_texto": "plus de nocturnitat",
+   "valor": "210",
+   "unidad_texto": "importe_eur",
+   "fecha_desde": "",
+   "fecha_hasta": "",
+   "cita_literal": "- Hicham Ouazzani: plus de nocturnitat 210 EUR",
+   "corrige_a": "",
+   "confianza": "alta"
+  },
+  {
+   "trabajador_texto": "Sonia Baena",
+   "concepto_texto": "dietes amb pernocta",
+   "valor": "2",
+   "unidad_texto": "unidades",
+   "fecha_desde": "",
+   "fecha_hasta": "",
+   "cita_literal": "- Sonia Baena: 2 dietes amb pernocta",
+   "corrige_a": "",
+   "confianza": "alta"
+  }
+ ],
+ "notas_del_lector": "Mensaje del área laboral de Camps Metall con variables para agosto. No se indican fechas concretas, solo periodo 'Variables d'agost'. No hay instrucciones sospechosas, órdenes de validación, aprobación o modificación de datos. Se transcribe literalmente sin normalizar conceptos ni unidades."
+}

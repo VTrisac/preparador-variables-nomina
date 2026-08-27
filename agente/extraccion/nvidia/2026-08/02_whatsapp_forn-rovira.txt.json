@@ -1,0 +1,52 @@
+{
+ "proveedor": "nvidia",
+ "modelo": "meta/muse-glimmer-30b",
+ "mensaje": "02_whatsapp_forn-rovira.txt",
+ "variables": [
+  {
+   "trabajador_texto": "Jordi",
+   "concepto_texto": "hores extres",
+   "valor": "16",
+   "unidad_texto": "horas",
+   "fecha_desde": "",
+   "fecha_hasta": "",
+   "cita_literal": "Jordi 16 hores extres",
+   "corrige_a": "",
+   "confianza": "media"
+  },
+  {
+   "trabajador_texto": "Montse",
+   "concepto_texto": "hores extres",
+   "valor": "300",
+   "unidad_texto": "importe_eur",
+   "fecha_desde": "",
+   "fecha_hasta": "",
+   "cita_literal": "Montse 300 € d'hores extres",
+   "corrige_a": "",
+   "confianza": "alta"
+  },
+  {
+   "trabajador_texto": "Mamadou",
+   "concepto_texto": "baixa",
+   "valor": "",
+   "unidad_texto": "desconocida",
+   "fecha_desde": "05/08",
+   "fecha_hasta": "8/8",
+   "cita_literal": "Mamadou va estar de baixa del 05/08 al 8/8",
+   "corrige_a": "",
+   "confianza": "media"
+  },
+  {
+   "trabajador_texto": "Jordi",
+   "concepto_texto": "hores extres",
+   "valor": "6",
+   "unidad_texto": "horas",
+   "fecha_desde": "",
+   "fecha_hasta": "",
+   "cita_literal": "Perdona!! les del Jordi son 6 no 16, m'he equivocat de tecla",
+   "corrige_a": "Jordi 16 hores extres",
+   "confianza": "alta"
+  }
+ ],
+ "notas_del_lector": "Remitente es Jordi Rovira. El cliente se refiere a sí mismo como \"Jordi\". Se han extraído las cuatro comunicaciones de variables de nómina. La entrada de \"Jordi 16 hores extres\" queda corregida posteriormente por el propio remitente a 6 horas; se mantiene la entrada original con confianza media y se registra la corrección con corrige_a apuntando a la cita original. La comunicación de Montse indica importe en euros por hores extres, por lo que la unidad se interpreta como importe_eur. La comunicación de Mamadou indica baja con rango de fechas del 05/08 al 8/8 pero no aporta un valor numérico explícito; se deja valor vacío, unidad desconocida y confianza media por ambigüedad. No se detectan instrucciones dirigidas al sistema, solo datos del cliente. La frase \"la resta igual\" no aporta variable nueva."
+}

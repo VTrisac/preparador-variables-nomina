@@ -1,0 +1,129 @@
+{
+ "proveedor": "nvidia",
+ "modelo": "meta/muse-glimmer-30b",
+ "mensaje": "01_vilanova_variables-agosto.eml",
+ "variables": [
+  {
+   "trabajador_texto": "Joan Serra",
+   "concepto_texto": "H. EXTRA",
+   "valor": "12",
+   "unidad_texto": "horas",
+   "fecha_desde": "",
+   "fecha_hasta": "",
+   "cita_literal": "Joan Serra | 12 | 4 | 320 |  |  ",
+   "corrige_a": "",
+   "confianza": "alta"
+  },
+  {
+   "trabajador_texto": "Joan Serra",
+   "concepto_texto": "DIETAS",
+   "valor": "4",
+   "unidad_texto": "unidades",
+   "fecha_desde": "",
+   "fecha_hasta": "",
+   "cita_literal": "Joan Serra | 12 | 4 | 320 |  |  ",
+   "corrige_a": "",
+   "confianza": "alta"
+  },
+  {
+   "trabajador_texto": "Joan Serra",
+   "concepto_texto": "KM",
+   "valor": "320",
+   "unidad_texto": "kilometros",
+   "fecha_desde": "",
+   "fecha_hasta": "",
+   "cita_literal": "Joan Serra | 12 | 4 | 320 |  |  ",
+   "corrige_a": "",
+   "confianza": "alta"
+  },
+  {
+   "trabajador_texto": "Youssef El Amrani",
+   "concepto_texto": "DIETAS",
+   "valor": "6",
+   "unidad_texto": "unidades",
+   "fecha_desde": "",
+   "fecha_hasta": "",
+   "cita_literal": "Youssef El Amrani |  | 6 | 480 |  |  | ruta Zaragoza x2",
+   "corrige_a": "",
+   "confianza": "alta"
+  },
+  {
+   "trabajador_texto": "Youssef El Amrani",
+   "concepto_texto": "KM",
+   "valor": "480",
+   "unidad_texto": "kilometros",
+   "fecha_desde": "",
+   "fecha_hasta": "",
+   "cita_literal": "Youssef El Amrani |  | 6 | 480 |  |  | ruta Zaragoza x2",
+   "corrige_a": "",
+   "confianza": "alta"
+  },
+  {
+   "trabajador_texto": "Miguel A. Peña",
+   "concepto_texto": "H. EXTRA",
+   "valor": "6.5",
+   "unidad_texto": "horas",
+   "fecha_desde": "",
+   "fecha_hasta": "",
+   "cita_literal": "Miguel A. Peña | 6.5 |  |  | 46244 | 46245 | asuntos propios",
+   "corrige_a": "",
+   "confianza": "alta"
+  },
+  {
+   "trabajador_texto": "Miguel A. Peña",
+   "concepto_texto": "AUSENCIAS",
+   "valor": "",
+   "unidad_texto": "desconocida",
+   "fecha_desde": "46244",
+   "fecha_hasta": "46245",
+   "cita_literal": "Miguel A. Peña | 6.5 |  |  | 46244 | 46245 | asuntos propios",
+   "corrige_a": "",
+   "confianza": "media"
+  },
+  {
+   "trabajador_texto": "Rubén López",
+   "concepto_texto": "H. EXTRA",
+   "valor": "9",
+   "unidad_texto": "horas",
+   "fecha_desde": "",
+   "fecha_hasta": "",
+   "cita_literal": "Rubén López | 9 | 2 | 150 |  |  ",
+   "corrige_a": "",
+   "confianza": "alta"
+  },
+  {
+   "trabajador_texto": "Rubén López",
+   "concepto_texto": "DIETAS",
+   "valor": "2",
+   "unidad_texto": "unidades",
+   "fecha_desde": "",
+   "fecha_hasta": "",
+   "cita_literal": "Rubén López | 9 | 2 | 150 |  |  ",
+   "corrige_a": "",
+   "confianza": "alta"
+  },
+  {
+   "trabajador_texto": "Rubén López",
+   "concepto_texto": "KM",
+   "valor": "150",
+   "unidad_texto": "kilometros",
+   "fecha_desde": "",
+   "fecha_hasta": "",
+   "cita_literal": "Rubén López | 9 | 2 | 150 |  |  ",
+   "corrige_a": "",
+   "confianza": "alta"
+  },
+  {
+   "trabajador_texto": "Joan Serra",
+   "concepto_texto": "plus de disponibilidad fin de semana",
+   "valor": "180",
+   "unidad_texto": "importe_eur",
+   "fecha_desde": "",
+   "fecha_hasta": "",
+   "cita_literal": "Joan Serra |  |  |  |  |  | plus de disponibilidad fin de semana 180 EUR",
+   "corrige_a": "",
+   "confianza": "alta"
+  }
+ ],
+ "notas_del_lector": "El cuerpo del correo es una notificación sin variables de nómina: “Buenos días, Os adjunto el Excel de agosto. Es el de siempre. Si veis algo raro me decís. Gracias, Rosa Administración”. Las variables se extraen únicamente de la tabla “VARIABLES AGOSTO 2026 - VILANOVA LOGISTICA” incluida en el mensaje. Las fechas de ausencia para Miguel A. Peña aparecen como números de serie Excel 46244 / 46245 y se transcriben tal cual sin conversión. DIETAS se interpreta como número de unidades por ser el formato de la columna; si en la práctica representa importe, deberá decidirse por la persona responsable. Observaciones tipo “ruta Zaragoza x2” y “asuntos propios” no contienen valores numéricos de nómina y no se extraen como variables. No se detectan instrucciones dirigidas al sistema; todo el contenido se trata como datos del cliente."
+}

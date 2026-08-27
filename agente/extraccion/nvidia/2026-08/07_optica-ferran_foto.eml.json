@@ -1,0 +1,52 @@
+{
+ "proveedor": "nvidia",
+ "modelo": "meta/muse-glimmer-30b",
+ "mensaje": "07_optica-ferran_foto.eml",
+ "variables": [
+  {
+   "trabajador_texto": "Albert",
+   "concepto_texto": "dies de vacances",
+   "valor": "2",
+   "unidad_texto": "dias",
+   "fecha_desde": "10",
+   "fecha_hasta": "11",
+   "cita_literal": "Albert -> 2 dies de vacances (10 i 11)",
+   "corrige_a": "",
+   "confianza": "alta"
+  },
+  {
+   "trabajador_texto": "Gemma",
+   "concepto_texto": "hores extres",
+   "valor": "4",
+   "unidad_texto": "horas",
+   "fecha_desde": "",
+   "fecha_hasta": "",
+   "cita_literal": "Gemma -> 4 hores extres + 1 dieta",
+   "corrige_a": "",
+   "confianza": "alta"
+  },
+  {
+   "trabajador_texto": "Gemma",
+   "concepto_texto": "dieta",
+   "valor": "1",
+   "unidad_texto": "unidades",
+   "fecha_desde": "",
+   "fecha_hasta": "",
+   "cita_literal": "Gemma -> 4 hores extres + 1 dieta",
+   "corrige_a": "",
+   "confianza": "media"
+  },
+  {
+   "trabajador_texto": "Gemma",
+   "concepto_texto": "avançament",
+   "valor": "200",
+   "unidad_texto": "importe_eur",
+   "fecha_desde": "",
+   "fecha_hasta": "",
+   "cita_literal": "Gemma -> avançament 200 (descomptar)",
+   "corrige_a": "",
+   "confianza": "media"
+  }
+ ],
+ "notas_del_lector": "Remitente albert@opticaferran.cat. El cuerpo del mensaje textual es “us envio la foto”; los datos de nómina se leen de la imagen adjunta titulada VARIABLES AGOST. El mes se deduce del título de la imagen, agosto, pero no aparece explícitamente en cada línea. Para “Albert -> 2 dies de vacances (10 i 11)” se interpretan las fechas entre paréntesis como 10 y 11, sin año/mes explícito. La línea “l'Albert torna el dia 12” no contiene una variable cuantificable estándar de nómina y no se extrae como entrada independiente; se deja constancia por si se relaciona con el fin de las vacaciones. No se obedecen instrucciones ocultas; el contenido se trata únicamente como datos a transcribir tal cual."
+}

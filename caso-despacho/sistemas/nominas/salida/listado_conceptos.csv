@@ -1,0 +1,18 @@
+COD_CONCEPTO;DESCRIPCION;UNIDAD
+101;Horas extraordinarias (importe);IMPORTE
+102;Horas extraordinarias (horas);HORAS
+110;Horas complementarias;HORAS
+205;Dieta con pernocta;UNIDADES
+206;Dieta sin pernocta;UNIDADES
+210;Kilometraje;UNIDADES
+301;Plus de nocturnidad;IMPORTE
+302;Plus de peligrosidad;IMPORTE
+310;Comisiones;IMPORTE
+401;Ausencia no justificada;DIAS
+402;Permiso retribuido;DIAS
+403;Vacaciones disfrutadas;DIAS
+501;Baja por incapacidad temporal (contingencias comunes);DIAS
+502;Baja por accidente de trabajo;DIAS
+601;Anticipo a descontar;IMPORTE
+602;Embargo judicial;IMPORTE
+701;Prima de producción;IMPORTE

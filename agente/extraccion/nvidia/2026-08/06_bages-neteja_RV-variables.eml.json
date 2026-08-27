@@ -1,0 +1,41 @@
+{
+ "proveedor": "nvidia",
+ "modelo": "meta/muse-glimmer-30b",
+ "mensaje": "06_bages-neteja_RV-variables.eml",
+ "variables": [
+  {
+   "trabajador_texto": "Rocío Martín",
+   "concepto_texto": "dietas sin pernocta",
+   "valor": "5",
+   "unidad_texto": "unidades",
+   "fecha_desde": "",
+   "fecha_hasta": "",
+   "cita_literal": "- Rocío Martín: 5 dietas sin pernocta",
+   "corrige_a": "",
+   "confianza": "alta"
+  },
+  {
+   "trabajador_texto": "Fatou Ndiaye",
+   "concepto_texto": "sigue de baja",
+   "valor": "",
+   "unidad_texto": "desconocida",
+   "fecha_desde": "28/07",
+   "fecha_hasta": "12/08",
+   "cita_literal": "- Fatou Ndiaye: sigue de baja, empezó el 28/07 y le han dado el alta el 12/08",
+   "corrige_a": "",
+   "confianza": "media"
+  },
+  {
+   "trabajador_texto": "Pilar Gimeno",
+   "concepto_texto": "horas complementarias",
+   "valor": "3",
+   "unidad_texto": "horas",
+   "fecha_desde": "",
+   "fecha_hasta": "",
+   "cita_literal": "- Pilar Gimeno: 3 horas complementarias",
+   "corrige_a": "",
+   "confianza": "alta"
+  }
+ ],
+ "notas_del_lector": "Mensaje de RRHH con variables de nómina para agosto. No se detectan instrucciones ocultas ni órdenes dirigidas al sistema. La entrada de Fatou Ndiaye comunica fechas de inicio y alta de baja pero no aporta un valor numérico explícito; se registra con unidad desconocida y confianza media. Las citas se transcriben literalmente tal como aparecen en el contenido del cliente."
+}

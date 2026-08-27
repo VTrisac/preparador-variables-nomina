@@ -1,0 +1,7 @@
+{
+ "proveedor": "nvidia",
+ "modelo": "meta/muse-glimmer-30b",
+ "mensaje": "11_ruido_autorespuesta.eml",
+ "variables": [],
+ "notas_del_lector": "Mensaje clasificado como autorespuesta automática de ausencia. Remitente no-reply@correu.cat, asunto 'Automatic reply: variables agosto'. Contenido: 'Estaré fuera de la oficina hasta el 1 de septiembre.' No se comunica ninguna variable de nómina cuantificable: no hay trabajador identificado, ni concepto de nómina con valor numérico, ni unidad clara. No se extraen entradas."
+}

@@ -1,0 +1,7 @@
+{
+ "proveedor": "nvidia",
+ "modelo": "meta/muse-glimmer-30b",
+ "mensaje": "10_ruido_consulta-iva.eml",
+ "variables": [],
+ "notas_del_lector": "El mensaje recibido no comunica variables de nómina. Es una consulta fiscal sobre deducción de IVA por compra de furgoneta de segunda mano, sin mención de trabajador, concepto retributivo, horas, importe, días u otra variable salarial. No se extrae ninguna entrada."
+}

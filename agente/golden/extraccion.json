@@ -1,0 +1,380 @@
+{
+ "_nota": "Extracción de referencia escrita a mano a partir de los 12 mensajes. NO es una grabación del modelo: es lo que un lector correcto DEBERÍA extraer. Sirve para dos cosas: probar las etapas 3-5 (código determinista) sin gastar tokens ni depender de la red, y medir la extracción real del modelo contra una referencia. Separa 'el modelo leyó bien' de 'el código resolvió bien'.",
+ "01_vilanova_variables-agosto.eml": {
+  "variables": [
+   {
+    "trabajador_texto": "Joan Serra",
+    "concepto_texto": "H. EXTRA",
+    "valor": "12",
+    "unidad_texto": "horas",
+    "fecha_desde": "",
+    "fecha_hasta": "",
+    "cita_literal": "Joan Serra | 12 | 4 | 320",
+    "corrige_a": "",
+    "confianza": "alta"
+   },
+   {
+    "trabajador_texto": "Joan Serra",
+    "concepto_texto": "DIETAS",
+    "valor": "4",
+    "unidad_texto": "unidades",
+    "fecha_desde": "",
+    "fecha_hasta": "",
+    "cita_literal": "Joan Serra | 12 | 4 | 320",
+    "corrige_a": "",
+    "confianza": "alta"
+   },
+   {
+    "trabajador_texto": "Joan Serra",
+    "concepto_texto": "KM",
+    "valor": "320",
+    "unidad_texto": "kilometros",
+    "fecha_desde": "",
+    "fecha_hasta": "",
+    "cita_literal": "Joan Serra | 12 | 4 | 320",
+    "corrige_a": "",
+    "confianza": "alta"
+   },
+   {
+    "trabajador_texto": "Youssef El Amrani",
+    "concepto_texto": "DIETAS",
+    "valor": "6",
+    "unidad_texto": "unidades",
+    "fecha_desde": "",
+    "fecha_hasta": "",
+    "cita_literal": "Youssef El Amrani |  | 6 | 480 |  |  | ruta Zaragoza x2",
+    "corrige_a": "",
+    "confianza": "alta"
+   },
+   {
+    "trabajador_texto": "Youssef El Amrani",
+    "concepto_texto": "KM",
+    "valor": "480",
+    "unidad_texto": "kilometros",
+    "fecha_desde": "",
+    "fecha_hasta": "",
+    "cita_literal": "Youssef El Amrani |  | 6 | 480 |  |  | ruta Zaragoza x2",
+    "corrige_a": "",
+    "confianza": "alta"
+   },
+   {
+    "trabajador_texto": "Miguel A. Peña",
+    "concepto_texto": "H. EXTRA",
+    "valor": "6.5",
+    "unidad_texto": "horas",
+    "fecha_desde": "",
+    "fecha_hasta": "",
+    "cita_literal": "Miguel A. Peña | 6.5 |  |  | 46244 | 46245 | asuntos propios",
+    "corrige_a": "",
+    "confianza": "alta"
+   },
+   {
+    "trabajador_texto": "Miguel A. Peña",
+    "concepto_texto": "asuntos propios",
+    "valor": "",
+    "unidad_texto": "dias",
+    "fecha_desde": "46244",
+    "fecha_hasta": "46245",
+    "cita_literal": "Miguel A. Peña | 6.5 |  |  | 46244 | 46245 | asuntos propios",
+    "corrige_a": "",
+    "confianza": "alta"
+   },
+   {
+    "trabajador_texto": "Rubén López",
+    "concepto_texto": "H. EXTRA",
+    "valor": "9",
+    "unidad_texto": "horas",
+    "fecha_desde": "",
+    "fecha_hasta": "",
+    "cita_literal": "Rubén López | 9 | 2 | 150",
+    "corrige_a": "",
+    "confianza": "alta"
+   },
+   {
+    "trabajador_texto": "Rubén López",
+    "concepto_texto": "DIETAS",
+    "valor": "2",
+    "unidad_texto": "unidades",
+    "fecha_desde": "",
+    "fecha_hasta": "",
+    "cita_literal": "Rubén López | 9 | 2 | 150",
+    "corrige_a": "",
+    "confianza": "alta"
+   },
+   {
+    "trabajador_texto": "Rubén López",
+    "concepto_texto": "KM",
+    "valor": "150",
+    "unidad_texto": "kilometros",
+    "fecha_desde": "",
+    "fecha_hasta": "",
+    "cita_literal": "Rubén López | 9 | 2 | 150",
+    "corrige_a": "",
+    "confianza": "alta"
+   },
+   {
+    "trabajador_texto": "Joan Serra",
+    "concepto_texto": "plus de disponibilidad fin de semana",
+    "valor": "180",
+    "unidad_texto": "importe_eur",
+    "fecha_desde": "",
+    "fecha_hasta": "",
+    "cita_literal": "Joan Serra |  |  |  |  |  | plus de disponibilidad fin de semana 180 EUR",
+    "corrige_a": "",
+    "confianza": "alta"
+   }
+  ],
+  "notas_del_lector": "La columna DIETAS no dice si son con o sin pernocta. Las fechas de ausencia vienen como números de serie de Excel, sin convertir."
+ },
+ "02_whatsapp_forn-rovira.txt": {
+  "variables": [
+   {
+    "trabajador_texto": "Jordi",
+    "concepto_texto": "hores extres",
+    "valor": "16",
+    "unidad_texto": "horas",
+    "fecha_desde": "",
+    "fecha_hasta": "",
+    "cita_literal": "Jordi 16 hores extres",
+    "corrige_a": "",
+    "confianza": "alta"
+   },
+   {
+    "trabajador_texto": "Montse",
+    "concepto_texto": "hores extres",
+    "valor": "300",
+    "unidad_texto": "importe_eur",
+    "fecha_desde": "",
+    "fecha_hasta": "",
+    "cita_literal": "Montse 300 € d'hores extres",
+    "corrige_a": "",
+    "confianza": "alta"
+   },
+   {
+    "trabajador_texto": "Mamadou",
+    "concepto_texto": "va estar de baixa",
+    "valor": "",
+    "unidad_texto": "dias",
+    "fecha_desde": "05/08",
+    "fecha_hasta": "8/8",
+    "cita_literal": "Mamadou va estar de baixa del 05/08 al 8/8",
+    "corrige_a": "",
+    "confianza": "alta"
+   },
+   {
+    "trabajador_texto": "Jordi",
+    "concepto_texto": "hores extres",
+    "valor": "6",
+    "unidad_texto": "horas",
+    "fecha_desde": "",
+    "fecha_hasta": "",
+    "cita_literal": "Perdona!! les del Jordi son 6 no 16, m'he equivocat de tecla",
+    "corrige_a": "Jordi 16 hores extres",
+    "confianza": "alta"
+   }
+  ],
+  "notas_del_lector": "El remitente rectifica 40 minutos después: las de Jordi son 6, no 16."
+ },
+ "03_dental-solsona_variables.eml": {
+  "variables": [
+   {
+    "trabajador_texto": "María",
+    "concepto_texto": "horas extra",
+    "valor": "12",
+    "unidad_texto": "horas",
+    "fecha_desde": "",
+    "fecha_hasta": "",
+    "cita_literal": "- María 12 horas extra",
+    "corrige_a": "",
+    "confianza": "alta"
+   },
+   {
+    "trabajador_texto": "Carla Ventosa",
+    "concepto_texto": "días de vacaciones",
+    "valor": "3",
+    "unidad_texto": "dias",
+    "fecha_desde": "24",
+    "fecha_hasta": "26",
+    "cita_literal": "- Carla Ventosa 3 días de vacaciones (del 24 al 26)",
+    "corrige_a": "",
+    "confianza": "alta"
+   },
+   {
+    "trabajador_texto": "Carla",
+    "concepto_texto": "anticipo",
+    "valor": "400",
+    "unidad_texto": "importe_eur",
+    "fecha_desde": "",
+    "fecha_hasta": "",
+    "cita_literal": "- Carla: anticipo de 400 euros que le dimos en caja",
+    "corrige_a": "",
+    "confianza": "alta"
+   }
+  ],
+  "notas_del_lector": "«María» va sin apellido."
+ },
+ "04_camps-metall_variables.eml": {
+  "variables": [
+   {
+    "trabajador_texto": "Elisenda Camps",
+    "concepto_texto": "hores extres",
+    "valor": "4",
+    "unidad_texto": "horas",
+    "fecha_desde": "",
+    "fecha_hasta": "",
+    "cita_literal": "- Elisenda Camps: 4 hores extres",
+    "corrige_a": "",
+    "confianza": "alta"
+   },
+   {
+    "trabajador_texto": "Hicham Ouazzani",
+    "concepto_texto": "plus de nocturnitat",
+    "valor": "210",
+    "unidad_texto": "importe_eur",
+    "fecha_desde": "",
+    "fecha_hasta": "",
+    "cita_literal": "- Hicham Ouazzani: plus de nocturnitat 210 EUR",
+    "corrige_a": "",
+    "confianza": "alta"
+   },
+   {
+    "trabajador_texto": "Sonia Baena",
+    "concepto_texto": "dietes amb pernocta",
+    "valor": "2",
+    "unidad_texto": "unidades",
+    "fecha_desde": "",
+    "fecha_hasta": "",
+    "cita_literal": "- Sonia Baena: 2 dietes amb pernocta",
+    "corrige_a": "",
+    "confianza": "alta"
+   }
+  ],
+  "notas_del_lector": ""
+ },
+ "05_vivers-puigcerda_hores.eml": {
+  "variables": [
+   {
+    "trabajador_texto": "Andrei",
+    "concepto_texto": "hores extres",
+    "valor": "22",
+    "unidad_texto": "horas",
+    "fecha_desde": "",
+    "fecha_hasta": "",
+    "cita_literal": "Andrei 22 hores extres (campanya de reg)",
+    "corrige_a": "",
+    "confianza": "alta"
+   },
+   {
+    "trabajador_texto": "Marta (la remitente, «jo»)",
+    "concepto_texto": "dia d'assumptes propis",
+    "valor": "1",
+    "unidad_texto": "dias",
+    "fecha_desde": "21",
+    "fecha_hasta": "21",
+    "cita_literal": "jo 1 dia d'assumptes propis, el 21",
+    "corrige_a": "",
+    "confianza": "alta"
+   }
+  ],
+  "notas_del_lector": "La remitente se incluye a sí misma con «jo»."
+ },
+ "06_bages-neteja_RV-variables.eml": {
+  "variables": [
+   {
+    "trabajador_texto": "Rocío Martín",
+    "concepto_texto": "dietas sin pernocta",
+    "valor": "5",
+    "unidad_texto": "unidades",
+    "fecha_desde": "",
+    "fecha_hasta": "",
+    "cita_literal": "- Rocío Martín: 5 dietas sin pernocta",
+    "corrige_a": "",
+    "confianza": "alta"
+   },
+   {
+    "trabajador_texto": "Fatou Ndiaye",
+    "concepto_texto": "sigue de baja",
+    "valor": "",
+    "unidad_texto": "dias",
+    "fecha_desde": "28/07",
+    "fecha_hasta": "12/08",
+    "cita_literal": "- Fatou Ndiaye: sigue de baja, empezó el 28/07 y le han dado el alta el 12/08",
+    "corrige_a": "",
+    "confianza": "alta"
+   },
+   {
+    "trabajador_texto": "Pilar Gimeno",
+    "concepto_texto": "horas complementarias",
+    "valor": "3",
+    "unidad_texto": "horas",
+    "fecha_desde": "",
+    "fecha_hasta": "",
+    "cita_literal": "- Pilar Gimeno: 3 horas complementarias",
+    "corrige_a": "",
+    "confianza": "alta"
+   }
+  ],
+  "notas_del_lector": "La baja de Fatou Ndiaye empieza en julio y termina en agosto."
+ },
+ "07_optica-ferran_foto.eml": {
+  "variables": [
+   {
+    "trabajador_texto": "Albert",
+    "concepto_texto": "dies de vacances",
+    "valor": "2",
+    "unidad_texto": "dias",
+    "fecha_desde": "10",
+    "fecha_hasta": "11",
+    "cita_literal": "Albert -> 2 dies de vacances (10 i 11)",
+    "corrige_a": "",
+    "confianza": "alta"
+   },
+   {
+    "trabajador_texto": "Gemma",
+    "concepto_texto": "hores extres",
+    "valor": "4",
+    "unidad_texto": "horas",
+    "fecha_desde": "",
+    "fecha_hasta": "",
+    "cita_literal": "Gemma -> 4 hores extres + 1 dieta",
+    "corrige_a": "",
+    "confianza": "alta"
+   },
+   {
+    "trabajador_texto": "Gemma",
+    "concepto_texto": "dieta",
+    "valor": "1",
+    "unidad_texto": "unidades",
+    "fecha_desde": "",
+    "fecha_hasta": "",
+    "cita_literal": "Gemma -> 4 hores extres + 1 dieta",
+    "corrige_a": "",
+    "confianza": "alta"
+   },
+   {
+    "trabajador_texto": "Gemma",
+    "concepto_texto": "avançament",
+    "valor": "200",
+    "unidad_texto": "importe_eur",
+    "fecha_desde": "",
+    "fecha_hasta": "",
+    "cita_literal": "Gemma -> avançament 200 (descomptar)",
+    "corrige_a": "",
+    "confianza": "alta"
+   }
+  ],
+  "notas_del_lector": "Nota manuscrita fotografiada. «l'Albert torna el dia 12» confirma que las vacaciones son 10 y 11, no es una variable en sí."
+ },
+ "10_ruido_consulta-iva.eml": {
+  "variables": [],
+  "notas_del_lector": "Consulta fiscal sobre deducción de IVA. No comunica variables de nómina."
+ },
+ "11_ruido_autorespuesta.eml": {
+  "variables": [],
+  "notas_del_lector": "Autorespuesta de ausencia. No comunica variables de nómina."
+ },
+ "12_ruido_boletin.eml": {
+  "variables": [],
+  "notas_del_lector": "Boletín comercial. No comunica variables de nómina."
+ }
+}

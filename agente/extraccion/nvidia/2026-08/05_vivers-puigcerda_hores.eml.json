@@ -1,0 +1,30 @@
+{
+ "proveedor": "nvidia",
+ "modelo": "meta/muse-glimmer-30b",
+ "mensaje": "05_vivers-puigcerda_hores.eml",
+ "variables": [
+  {
+   "trabajador_texto": "Andrei",
+   "concepto_texto": "hores extres",
+   "valor": "22",
+   "unidad_texto": "horas",
+   "fecha_desde": "",
+   "fecha_hasta": "",
+   "cita_literal": "Andrei 22 hores extres (campanya de reg)",
+   "corrige_a": "",
+   "confianza": "alta"
+  },
+  {
+   "trabajador_texto": "Marta",
+   "concepto_texto": "assumptes propis",
+   "valor": "1",
+   "unidad_texto": "dias",
+   "fecha_desde": "21",
+   "fecha_hasta": "",
+   "cita_literal": "jo 1 dia d'assumptes propis, el 21",
+   "corrige_a": "",
+   "confianza": "alta"
+  }
+ ],
+ "notas_del_lector": "El mensaje se refiere a “Aquest mes” y la fecha del correo es 19 Aug 2026; no se extraen fechas de mes/año porque el cliente no las escribe literalmente. “jo” se interpreta como la remitente Marta, identificada por el correo marta@viverspuigcerda.cat y la firma “Marta”. No hay instrucciones sospechosas ni órdenes de gestión; solo se transcriben los datos de nómina comunicados."
+}

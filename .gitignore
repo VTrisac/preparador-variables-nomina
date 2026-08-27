@@ -1,0 +1,18 @@
+# Salida regenerable del agente. Guarda estado (importaciones ya hechas) que caduca
+# al restaurar el entorno, así que no debe viajar:
+#   python3 agente/agente.py --extraccion agente/golden/extraccion.json
+agente/propuestas/
+
+# Copia de seguridad local del entorno. Se hace en cada máquina, no viaja.
+caso-despacho.limpio/
+
+# El enunciado del proceso de selección es documento de AI Mate, no mío.
+*.pdf
+*.html
+
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+secrets.env
+.env
